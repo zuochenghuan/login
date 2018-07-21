@@ -1,0 +1,43 @@
+{
+  "pages":[
+     "pages/index/index",
+     "pages/logs/logs"
+  ],
+
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wechat",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "color":"#888",
+    "selectedColor":"red",
+    "backgroundColor":"#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "当前热映",
+        "iconPath":"image/user_icon.png",
+        "selectedIconPath":"image/user_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "影院选择",
+        "iconPath": "image/user_icon.png",
+        "selectedIconPath": "image/user_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "查询",
+        "iconPath": "image/user_icon.png",
+        "selectedIconPath": "image/user_icon_HL.png"
+      }
+
+    ]
+  }
+
+
+}
